@@ -1,6 +1,6 @@
- Fila {  //criando uma classe 
+class Fila {  //criando uma classe 
 
-    constructor(tamanho) {  //criclassando um construtor
+    constructor(tamanho) {  //criando um construtor
         this.inicio = 0;  //criando o atrinuto de inicio
         this.fim = 0; //criando o atribulo de fim
         this.comprimentoArray = tamanho + 1; // nessa linha o atributo comprimentoArray recebe o atributo +1
@@ -67,4 +67,3 @@ f.inserir(50)
 f.inserir(66)
 // susjestão: apaga as linhas de inserir e remover e refaça novamente para ficar mais claro
 console.log(f.array)
-
