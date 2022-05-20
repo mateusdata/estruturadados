@@ -1,6 +1,6 @@
-class Fila {  //criando uma classe 
+ Fila {  //criando uma classe 
 
-    constructor(tamanho) {  //criando um construtor
+    constructor(tamanho) {  //criclassando um construtor
         this.inicio = 0;  //criando o atrinuto de inicio
         this.fim = 0; //criando o atribulo de fim
         this.comprimentoArray = tamanho + 1; // nessa linha o atributo comprimentoArray recebe o atributo +1
