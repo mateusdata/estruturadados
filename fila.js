@@ -47,26 +47,24 @@ class Fila {  //criando uma classe
 
 
 let f = new Fila(5); //cria uma instacia da classe Fila
-f.inserir(1)
+f.inserir(1) //inserir elemento no array
 f.inserir(2)
 f.inserir(3)
 f.inserir(4)
 f.inserir(5)
-f.inserir(6)
+f.inserir()
+f.remover() //remove elemento no array
 f.remover()
 f.remover()
 f.remover()
 f.remover()
 f.remover()
-f.remover()
-f.inserir(7)
-f.inserir(7)
-f.inserir(9)
 f.inserir(10)
-f.inserir(11)
-f.inserir(12)
-
+f.inserir(20)
+f.inserir(30)
+f.inserir(40)
+f.inserir(50)
+f.inserir(66)
+// susjestão: apaga as linhas de inserir e remover e refaça novamente para ficar mais claro
 console.log(f.array)
-f.array.map((value) => {
-    console.log(value)
-})
+
